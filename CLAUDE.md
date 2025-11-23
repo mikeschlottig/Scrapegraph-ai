@@ -4,7 +4,7 @@
 
 ScrapeGraphAI is a Python web scraping library that uses LLMs (Large Language Models) and direct graph logic to create intelligent scraping pipelines. It can extract structured information from websites and local documents (XML, HTML, JSON, Markdown, etc.) using natural language prompts.
 
-**Version**: 1.62.0
+**Version**: 1.64.0
 **License**: MIT
 **Python**: >=3.10, <4.0
 
@@ -263,6 +263,22 @@ Use semantic prefixes:
 
 ---
 
+## Recent Changes (v1.62.0 to v1.64.0)
+
+### v1.64.0 (2025-11-06)
+- **New Feature**: Configurable timeout for FetchNode
+  - Default timeout of 30 seconds for HTTP requests and PDF parsing
+  - Timeout propagated to ChromiumLoader via `loader_kwargs`
+  - New test file: `tests/test_fetch_node_timeout.py` with comprehensive timeout tests
+
+### v1.63.1 (2025-10-24)
+- **Bug Fix**: URL redirect handling
+
+### v1.63.0 (2025-10-22)
+- **Feature**: Updated model tokens configuration
+
+---
+
 ## Issues & Recommendations
 
 ### Critical Issues
@@ -280,6 +296,7 @@ Use semantic prefixes:
    - `/tests/test_json_scraper_multi_graph.py` - 0 lines
    - `/tests/test_smart_scraper_multi_concat_graph.py` - 0 lines
    - These graphs have no test coverage
+   - Note: Testing improved with addition of `tests/test_fetch_node_timeout.py` (v1.64.0)
 
 ### Configuration Issues
 
