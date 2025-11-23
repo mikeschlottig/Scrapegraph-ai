@@ -1,3 +1,24 @@
+## [1.64.0](https://github.com/ScrapeGraphAI/Scrapegraph-ai/compare/v1.63.1...v1.64.0) (2025-11-06)
+
+
+### Features
+
+* Add configurable timeout to FetchNode ([e81a4ed](https://github.com/ScrapeGraphAI/Scrapegraph-ai/commit/e81a4ed74540c6fb3be9465a698d8de9df72a74b))
+
+## [1.63.1](https://github.com/ScrapeGraphAI/Scrapegraph-ai/compare/v1.63.0...v1.63.1) (2025-10-24)
+
+
+### Bug Fixes
+
+* url redirect ([8f0433c](https://github.com/ScrapeGraphAI/Scrapegraph-ai/commit/8f0433cfb6c7b6fc7bb542a8956858fc7b4b5ea2))
+
+## [1.63.0](https://github.com/ScrapeGraphAI/Scrapegraph-ai/compare/v1.62.0...v1.63.0) (2025-10-22)
+
+
+### Features
+
+* update model tokens ([79db9b9](https://github.com/ScrapeGraphAI/Scrapegraph-ai/commit/79db9b9f1341475474fca9b159325973e730a865))
+
 ## [1.62.0](https://github.com/ScrapeGraphAI/Scrapegraph-ai/compare/v1.61.0...v1.62.0) (2025-08-13)
 
 
